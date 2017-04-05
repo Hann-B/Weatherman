@@ -1,0 +1,10 @@
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\Weatherman.exe.config
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\Weatherman.exe
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\Weatherman.pdb
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\MathNet.Numerics.dll
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\Newtonsoft.Json.dll
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\MathNet.Numerics.xml
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\bin\Debug\Newtonsoft.Json.xml
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\obj\Debug\Weatherman.csprojResolveAssemblyReference.cache
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\obj\Debug\Weatherman.exe
+c:\users\hanna\documents\visual studio 2017\Projects\Weatherman\Weatherman\obj\Debug\Weatherman.pdb
