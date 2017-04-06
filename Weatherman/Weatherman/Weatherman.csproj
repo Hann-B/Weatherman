@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Clouds.cs" />
     <Compile Include="Coord.cs" />
+    <Compile Include="PastWeather.cs" />
     <Compile Include="WMain.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

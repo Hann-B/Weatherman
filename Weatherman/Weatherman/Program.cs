@@ -69,8 +69,36 @@ namespace Weatherman
                 connection.Close();
             }
         }
+        public static List<PastWeather> ReadQueriesFromFile(SqlConnection connection)
+        {
+            //Read database 
+            var weather = new List<PastWeather>();
+            var sqlCommand = new SqlCommand(
+                @"SELECT*
+                FROM WeatherQuery", connection);
+            connection.Open();
+            var reader = sqlCommand.ExecuteReader();
+            while (reader.Read())
+                {
+                var weatherPast = new PastWeather(reader);
+                weather.Add(new PastWeather());
+                }
+            connection.Close();
+            return weather;
+        }
+        public static void CompareNames(List<PastWeather>weather)
+        {
+            //compare names
+            Console.WriteLine();
+        }
+
         static void Main(string[] args)
         {
+            //Where is the Database
+            const string connectionString =
+                 @"Server=localhost\SQLEXPRESS;Database=Weatherman;Trusted_Connection=True;";
+            var connection = new SqlConnection(connectionString);
+
             string userName = GetUserName();
 
             string zip = GetUserZipCode(userName);
@@ -81,6 +109,17 @@ namespace Weatherman
 
             DisplayCurrentWeather(weatherNow);
 
+            List<PastWeather>weather= ReadQueriesFromFile(connection);
+
+            CompareNames(weather);
+
+            //if user returns display past queries
+
+            //when ID!=ID but Name=Name 
+            //Display past queries 
+            //WHERE Name=Name
+
+            //display if applicable
         }
     }
 }
